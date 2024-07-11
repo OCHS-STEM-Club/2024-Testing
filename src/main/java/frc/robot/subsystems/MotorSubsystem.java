@@ -25,11 +25,11 @@ public class MotorSubsystem extends SubsystemBase {
     // This method will be called once per scheduler run
   }
 
-  public void MotorOn() {
+  public void motorOn() {
     motor.set(0.5);
   }
 
-  public void MotorOff() {
+  public void motorOff() {
     motor.set(0);
   }
 }
